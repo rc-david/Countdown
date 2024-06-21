@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffc100;
+    text-align: center;
+    padding: 50px;
+}
+.counter {
+    display: inline-block;
+    background: #000;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+}
+.counter .title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.counter .days,
+.counter .hours {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.counter .days span,
+.counter .hours span {
+    font-size: 2em;
+    margin: 0 5px;
+}
+.counter .last-event {
+    margin-top: 10px;
+    font-size: 1em;
+}
